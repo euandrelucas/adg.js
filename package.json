@@ -1,0 +1,28 @@
+{
+  "name": "adg.js",
+  "version": "1.0",
+  "type": "module",
+  "description": "Framework para desenvolvimento web",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "npm run compile && node tests/index.js"
+  },
+  "keywords": [
+    "framework",
+    "desenvolvimento",
+    "development",
+    "web",
+    "frontend"
+  ],
+  "author": "euandrelucas",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.9",
+    "fastify": "^4.28.0",
+    "glob": "^10.4.2"
+  }
+}
